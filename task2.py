@@ -1,6 +1,6 @@
-def find_longest_word(s:str)->str:
-    longest_word = max(s, key=len)
-    return longest_word
-x = 'Python is simple and effective!'
-p = x.split(' ')
-print(find_longest_word(p))
+string = 'Python is simple and effective!'
+#строка с входными данными
+longest_word = max(string.split(' '), key=len)
+#сплит разбивает строку на слова разделенные пробеломб кейлен ищет самый большой элемент строки
+print(longest_word)
+#вывод на экран
