@@ -1,6 +1,7 @@
-lst = ['London\'s', "London\"s"]
-print(lst)
-
-
-lst1 = ["London\"s", 'London\'s']
-print(lst1)
+str = input('Enter your text: ')
+if str == "Paris":
+    print("\'Paris is a Capital of France.\'")
+elif str == 'London':
+    print('\"London is a Capital of Great Britain.\"')
+else:
+    print("Learn geography.")
