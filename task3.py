@@ -1,8 +1,17 @@
-text = input('Enter your text: ')
-new_text = ''
-for i in text:
-    if i in text:
-        pimp = text.replace('\"', "\'")
+#create a variable for data input
+text = input("Enter your text: ")
+#initial value of the variable for the result
+replaced_string = ""
+#cycle start
+for char in text:
+    #cycle conditions
+    #if the char in the text has a double quote, then change it to a single quote
+    if char == "'":
+        replaced_string += '"'
+        #if the char in the text has a single quote, then change it to a double quote
+    elif char == '"':
+        replaced_string += "'"
+        #if the character is not a quotation mark, leave it as it is
     else:
-        pimp = text.replace("\'", '\"')
-print(pimp)
+        replaced_string += char
+print(replaced_string)
