@@ -1,6 +1,6 @@
 string = 'Python is simple and effective!'
-#строка с входными данными
+#input string
 longest_word = max(string.split(' '), key=len)
-#сплит разбивает строку на слова разделенные пробеломб кейлен ищет самый большой элемент строки
+#split a string into words separated by a space key len looking for the largest element of the string
 print(longest_word)
-#вывод на экран
+#screen output
