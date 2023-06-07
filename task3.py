@@ -8,10 +8,11 @@ for char in text:
     #if the char in the text has a double quote, then change it to a single quote
     if char == "'":
         replaced_string += '"'
-        #if the char in the text has a single quote, then change it to a double quote
+    #if the char in the text has a single quote, then change it to a double quote
     elif char == '"':
         replaced_string += "'"
-        #if the character is not a quotation mark, leave it as it is
+    #else the character is not a quotation mark, leave it as it is
     else:
         replaced_string += char
+        
 print(replaced_string)
