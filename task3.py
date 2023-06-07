@@ -1,3 +1,6 @@
+""""Implement a function that receives a string and replaces all " symbols with ' and vice versa."""
+
+
 #create a variable for data input
 text = input("Enter your text: ")
 #initial value of the variable for the result
