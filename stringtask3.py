@@ -6,14 +6,12 @@ Sample String : 'w3'
 Expected Result : 'w3w3'
 Sample String : ' w'
 Expected Result : Empty String """
-
-string = "w3resource"
-count = 0
-#the number of repetitions of the specified value in the string
-for i in string:
-    count = count + 1
-#index summation
-new_string = string[0:2] + string[count - 2: count]
-#output
-print("Input string = " + string)
-print("New String = " + new_string)
+#input string
+string = input('Enter your text: ')
+new_string = ''
+if len(string) >= 2:
+    #cut two symbols on each side
+    new_string = string[:2] + string[-2:]
+    print(new_string)
+else:
+    print('Empty String')
