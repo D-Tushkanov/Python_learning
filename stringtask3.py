@@ -6,7 +6,7 @@ Sample String : 'w3'
 Expected Result : 'w3w3'
 Sample String : ' w'
 Expected Result : Empty String """
-#input string
+#input variable
 string = input('Enter your text: ')
 new_string = ''
 if len(string) >= 2:
